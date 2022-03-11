@@ -1,0 +1,31 @@
+.navBarHide {
+        margin-left: 100%;
+        width: 500%;
+}
+
+.navBarShow {
+        width: 100%;
+        margin-left: 0%;
+}
+
+::-webkit-scrollbar {
+        width: 0px;
+}
+
+.slider {
+        -webkit-appearance: none;
+        border-radius: 100px;
+        height: 20px;
+        color: rgb(229 231 235);
+        overflow: hidden;
+}
+
+.slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background: #EC1A55;
+        border-radius: 100%;
+        box-shadow: -407px 0 0 400px #6e0f2a;
+}
